@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Антон Межанский](https://up.htmlacademy.ru/adaptive/20/user/1521841).
-* Наставник: `Неизвестно`.
+* Наставник: [Юрий Мамаев](https://htmlacademy.ru/profile/id888525).
 
 ---
 
