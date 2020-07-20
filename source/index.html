@@ -18,19 +18,19 @@
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a href="index.html">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="index.html" class="main-nav__link main-nav__link--active">
               Главная
             </a>
           </li>
-          <li class="site-list__item">
-            <a href="catalog.html">
+          <li class="main-nav__item">
+            <a href="catalog.html" class="main-nav__link">
               Каталог продукции
             </a>
           </li>
-          <li class="site-list__item">
-            <a href="form.html">
+          <li class="main-nav__item">
+            <a href="form.html" class="main-nav__link">
               Подбор программы
             </a>
           </li>
@@ -42,22 +42,19 @@
       <h1 class="visually-hidden">Cat Energy - интернет магазин питания для вашего кота</h1>
 
       <section class="promo">
-        <header class="promo__header">
+        <div class="promo__header">
           <h2 class="visually-hidden">
             Промо Cat Energy
           </h2>
           <p class="promo__slogan">
-            Функциональное<br>
-            питание для котов
+            Функциональное питание для котов
           </p>
           <p class="promo__intro">
             Занялся собой? Займись котом!
           </p>
-        </header>
+        </div>
         <img class="promo__img" src="https://via.placeholder.com/280x270" width="280" height="270" alt="Промо картинка">
-        <button class="promo__action" type="button">
-          Подобрать программу
-        </button>
+        <a href="form.html" class="promo__link">Подобрать программу</a>
       </section>
 
       <section class="catalog">
@@ -65,27 +62,33 @@
             Каталог продукции Cat Energy
         </h2>
         <ul class="catalog__list">
-          <li class="catalog__item item-catalog">
-            <header class="item-catalog__header">
-              <img class="item-catalog__img" src="https://via.placeholder.com/50x53" width="50" height="53" alt="Картинка каталог Slim">
-              <p class="item-catalog__title">Похудение</p>
-            </header>
-            <p class="item-catalog__intro">
-              Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
-            </p>
-            <hr class="item-catalog__separator" />
-            <a class="item-catalog__link" href="catalog.html">Каталог Slim</a>
+          <li class="catalog__item">
+            <div class="item-catalog">
+              <div class="item-catalog__header">
+                <img class="item-catalog__img" src="https://via.placeholder.com/50x53" width="50" height="53"
+                     alt="Картинка каталог Slim">
+                <h3 class="item-catalog__title">Похудение</h3>
+              </div>
+              <p class="item-catalog__intro">
+                Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy
+                Slim поможет вашему питомцу сбросить лишний вес.
+              </p>
+              <a class="item-catalog__link" href="catalog.html">Каталог Slim</a>
+            </div>
           </li>
           <li class="catalog__item item-catalog">
-            <header class="item-catalog__header">
-              <img class="item-catalog__img" src="https://via.placeholder.com/50x53" width="50" height="53" alt="Картинка каталог Pro">
-              <p class="item-catalog__title">Набор массы</p>
-            </header>
-            <p class="item-catalog__intro">
-              Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
-            </p>
-            <hr class="item-catalog__separator" />
-            <a class="item-catalog__link" href="catalog.html">Каталог Pro</a>
+            <div class="item-catalog">
+              <div class="item-catalog__header">
+                <img class="item-catalog__img" src="https://via.placeholder.com/50x53" width="50" height="53"
+                     alt="Картинка каталог Pro">
+                <h3 class="item-catalog__title">Набор массы</h3>
+              </div>
+              <p class="item-catalog__intro">
+                Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту
+                нарастить необходимые мышцы!
+              </p>
+              <a class="item-catalog__link" href="catalog.html">Каталог Pro</a>
+            </div>
           </li>
         </ul>
       </section>
@@ -116,8 +119,8 @@
 
       <footer class="page-footer">
         <a class="page-footer__logo" href="/">
-          <span class="page-header__title--first">Cat</span>
-          Energy
+          <span class="page-header__title page-header__title--first">Cat</span>
+          <span class="page-header__title">Energy</span>
         </a>
         <ul class="page-footer__social social-list">
           <li class="social-list__item">
